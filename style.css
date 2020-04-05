@@ -40,6 +40,7 @@ header nav ul {
 header nav li {
     display: inline-block;
     flex-direction: row;
+    margin: 5px;
 }
 
 header nav li a:hover {
@@ -51,7 +52,7 @@ header nav li a {
     list-style-type: none;
     text-decoration: none;
     font-size: 12pt;
-    font-weight: bold;
+    font-weight: 500;
     padding: 5px 15px;
 }
 
