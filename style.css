@@ -72,7 +72,7 @@ margin-bottom: 45px;
 section.paragraph h1 {
     font-size: 45pt;
     font-weight: 1000;
-    margin-bottom: -30px;
+    margin-bottom: -10px;
     
 }
 
@@ -135,4 +135,50 @@ section.statistics {
 section.statistics div {
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+
+
+
+section.articles h1{
+    font-size: 27pt;
+    font-weight: 1000;
+    text-align: center;
+
+}
+
+section.articles h2{
+    font-size: 23pt;
+    margin-bottom: 20px;
+    color: rgb(168, 164, 164);
+    font-weight: 100;
+    text-align: center;
+
+}
+
+section.articles .articles-wrapper{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+section.articles .articles-wrapper .articles-item{
+    width: 30%;
+
+}
+
+section.articles .articles-wrapper .articles-item h3{
+    font-size: 18pt;
+    color: grey;
+    text-align: center;
+
+}
+
+section.articles .articles-wrapper .articles-item p{
+    font-size: 13pt;
+    color: grey;
+    text-align: center;
+
 }
