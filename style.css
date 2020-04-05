@@ -1,4 +1,38 @@
 * {
-    margin: 0;
     box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: white;
+   font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+section.icon .icon-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section.icon .icon-wrapper .icon-item {
+    width: 33%;
+    height: 200px;
+    background-color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+section.icon .icon-wrapper .icon-item h4{
+    font-size: 18pt;
+
+}
+
+section.icon .icon-wrapper .icon-item p{
+    font-size: 13pt;
+
 }
