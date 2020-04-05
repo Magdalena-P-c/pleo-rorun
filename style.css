@@ -144,15 +144,3 @@ section.statistics div {
     text-align: center;
     padding: 10px 40px;
 }
-
-section.statistics div h3 {
-    color: mediumseagreen;
-    font-size: 50pt;
-    font-weight: bolder;
-}
-
-section.statistics div p {
-    color: gray;
-    font-size: 18pt;
-    font-weight: 300;
-}
