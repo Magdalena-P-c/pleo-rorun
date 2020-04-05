@@ -21,17 +21,32 @@ margin-bottom: 45px;
 
 section.paragraph h1 {
     font-size: 45pt;
+    font-weight: 1000;
+    margin-bottom: -30px;
     
 }
 
 section.paragraph h2{
-    font-size: 35pt;
-    color: grey;
+    font-size: 30pt;
+    color: rgb(168, 164, 164);
+    font-weight: 100;
+    text-transform: lowercase;
 }
+
+section.paragraph h2::after{
+    content: "";
+    display: block;
+    background-color: rgb(231, 226, 226);
+    height: 2px;
+    width: 200px;
+    margin: 20px auto 40px;
+}
+
 
 section.paragraph p{
     font-size: 13pt;
-    color: grey;
+    color: rgb(168, 164, 164);
+    margin-bottom: 20px;
 }
 
 
@@ -42,7 +57,7 @@ section.icon .icon-wrapper {
 }
 
 section.icon .icon-wrapper .icon-item {
-    width: 33%;
+    width: 25%;
     height: 200px;
     background-color: #fff;
     text-align: center;
@@ -52,6 +67,11 @@ section.icon .icon-wrapper .icon-item {
 section.icon .icon-wrapper .icon-item h4{
     font-size: 18pt;
 
+}
+
+section.icon .icon-wrapper .icon-item h4 a{
+    color: rgb(21, 121, 146);
+    text-decoration: none;
 }
 
 section.icon .icon-wrapper .icon-item p{
