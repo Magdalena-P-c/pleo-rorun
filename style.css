@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background-color: white;
+   font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 25px;
+    margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+section.banner {
+    background-image: url("rorun_layout_pliki/home/background_image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 70px 70px;
+    height: 526px;
+    text-align: left;
+}
+
+section.banner h1 {
+    margin: 0;
+    font-size: 60pt;
+    font-weight: bold;
+}
+
+section.banner h4 {
+    margin-top: 10px;
+    font-size: 50pt;
+    font-weight: lighter;
+}
+
+section.banner h5 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+section.banner h5:after {
+    content: '';
+    background-color: white;
+    height: 3px;
+    width: 30%;
+    display: block;
+    margin-top: 30px;
+}
+
+section.banner a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+section.paragraph {
+text-align: center;
+margin-bottom: 45px;
+
+}
+
+section.paragraph h1 {
+    font-size: 45pt;
+    font-weight: 1000;
+    margin-bottom: -30px;
+    
+}
+
+section.paragraph h2{
+    font-size: 30pt;
+    color: rgb(168, 164, 164);
+    font-weight: 100;
+    text-transform: lowercase;
+}
+
+section.paragraph h2::after{
+    content: "";
+    display: block;
+    background-color: rgb(231, 226, 226);
+    height: 2px;
+    width: 200px;
+    margin: 20px auto 40px;
+}
+
+
+section.paragraph p{
+    font-size: 13pt;
+    color: rgb(168, 164, 164);
+    margin-bottom: 20px;
+}
+
+
+section.icon .icon-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+section.icon .icon-wrapper .icon-item {
+    width: 25%;
+    height: 200px;
+    background-color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+section.icon .icon-wrapper .icon-item h4{
+    font-size: 18pt;
+}
+
+section.icon .icon-wrapper .icon-item h4 a{
+    color: rgb(21, 121, 146);
+    text-decoration: none;
+}
+
+section.icon .icon-wrapper .icon-item p{
+    font-size: 13pt;
+}
+
+section.statistics {
+    background-color: gray;
+    display: flex;
+}
+
+section.statistics div {
+    flex-direction: column;
+    flex-wrap: wrap;
+}
