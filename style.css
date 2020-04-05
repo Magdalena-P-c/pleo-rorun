@@ -135,12 +135,12 @@ section.statistics {
 
 section.statistics.container {
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 section.statistics div {
     display: inline-block;
     flex-direction: column;
-    width: 24%;
     text-align: center;
     padding: 10px 40px;
 }
