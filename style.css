@@ -10,7 +10,7 @@ body {
 .container {
     max-width: 1200px;
     padding: 0 25px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -72,7 +72,8 @@ margin-bottom: 45px;
 section.paragraph h1 {
     font-size: 45pt;
     font-weight: 900;
-    margin-bottom: -30px;
+    margin-bottom: -10px;
+    
 }
 
 section.paragraph h2{
@@ -209,7 +210,17 @@ section.articles h2{
     color: rgb(168, 164, 164);
     font-weight: 100;
     text-align: center;
+    text-transform: lowercase;
 
+}
+
+section.articles h2::after{
+    content: "";
+    display: block;
+    background-color: rgb(168, 164, 164);
+    height: 2px;
+    width: 200px;
+    margin: 20px auto 40px;
 }
 
 section.articles .articles-wrapper{
@@ -225,12 +236,49 @@ section.articles .articles-wrapper .articles-item{
 
 section.articles .articles-wrapper .articles-item h3{
     font-size: 18pt;
-    color: grey;
+    color: rgb(168, 164, 164);
     text-align: center;
+}
+
+section.articles .articles-wrapper .articles-item h3::after{
+    content: "";
+    display: block;
+    background-color: rgb(168, 164, 164);
+    height: 2px;
+    width: 200px;
+    margin: 20px auto 40px;
 }
 
 section.articles .articles-wrapper .articles-item p{
     font-size: 13pt;
-    color: grey;
+    color: rgb(168, 164, 164);
     text-align: center;
+}
+
+section.about {
+    background-color: mediumseagreen;
+    text-align: center;
+    padding: 60px;
+}
+
+section.about p{
+    font-size: 21pt;
+    color:white;
+    font-weight: 300;
+
+}
+
+section.about p.description::after{
+    content: "";
+    display: block;
+    background-color: white;
+    height: 2px;
+    width: 200px;
+    margin: 20px auto 40px;
+}
+
+section.about p.signature{
+    font-size: 18pt;
+    color:white;
+
 }
