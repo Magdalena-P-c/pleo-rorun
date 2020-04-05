@@ -4,7 +4,7 @@
 body {
     margin: 0;
     background-color: white;
-   font-family: sans-serif;
+    font-family: sans-serif;
 }
 
 .container {
@@ -71,7 +71,7 @@ margin-bottom: 45px;
 
 section.paragraph h1 {
     font-size: 45pt;
-    font-weight: 1000;
+    font-weight: 900;
     margin-bottom: -30px;
     
 }
@@ -128,11 +128,31 @@ section.icon .icon-wrapper .icon-item p{
 }
 
 section.statistics {
-    background-color: gray;
+    background-color: lightgray;
     display: flex;
+    margin-top: 200px;
+}
+
+section.statistics.container {
+    flex-wrap: wrap;
 }
 
 section.statistics div {
+    display: inline-block;
     flex-direction: column;
-    flex-wrap: wrap;
+    width: 24%;
+    text-align: center;
+    padding: 10px 40px;
+}
+
+section.statistics div h3 {
+    color: mediumseagreen;
+    font-size: 50pt;
+    font-weight: bolder;
+}
+
+section.statistics div p {
+    color: gray;
+    font-size: 18pt;
+    font-weight: 300;
 }
