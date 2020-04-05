@@ -2,3 +2,55 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+section.banner {
+    background-image: url("home/background_image.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 70px 70px;
+    height: 526px;
+    text-align: left;
+}
+
+section.banner h1 {
+    margin: 0;
+    font-size: 60pt;
+    font-weight: bold;
+}
+
+section.banner h4 {
+    margin-top: 10px;
+    font-size: 50pt;
+    font-weight: lighter;
+}
+
+section.banner h5 {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+section.banner h5:after {
+    content: '';
+    background-color: white;
+    height: 3px;
+    width: 30%;
+    display: block;
+    margin-top: 30px;
+}
+
+section.banner a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
