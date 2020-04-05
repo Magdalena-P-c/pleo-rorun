@@ -17,6 +17,44 @@ h1,h2,h3,h4,h5,h6,p {
     margin: 0;
 }
 
+header {
+
+}
+
+header .container {
+    margin: 5px;
+}
+
+header .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+header nav ul {
+    display: block;
+    flex-direction: row;
+}
+
+header nav li {
+    display: inline-block;
+    flex-direction: row;
+}
+
+header nav li a:hover {
+    color: green;
+}
+
+header nav li a {
+    color: mediumseagreen;
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 12pt;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+
 section.banner {
     background-image: url("rorun_layout_pliki/home/background_image.jpg");
     background-position: center;
