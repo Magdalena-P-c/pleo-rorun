@@ -79,7 +79,7 @@ section.paragraph h1 {
 section.paragraph h2{
     font-size: 30pt;
     color: rgb(168, 164, 164);
-    font-weight: 100;
+    font-weight: lighter;
     text-transform: lowercase;
 }
 
@@ -100,10 +100,16 @@ section.paragraph p{
 }
 
 
+section.icon{
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
 section.icon .icon-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 section.icon .icon-wrapper .icon-item {
@@ -112,10 +118,13 @@ section.icon .icon-wrapper .icon-item {
     background-color: #fff;
     text-align: center;
     padding: 15px;
+    margin-bottom: 20px;
 }
 
 section.icon .icon-wrapper .icon-item h4{
     font-size: 18pt;
+    color: grey;
+    margin: 25px 0;
 }
 
 section.icon .icon-wrapper .icon-item h4 a{
@@ -125,6 +134,9 @@ section.icon .icon-wrapper .icon-item h4 a{
 
 section.icon .icon-wrapper .icon-item p{
     font-size: 13pt;
+    color: grey;
+    padding: 15px;
+    margin-bottom: 40px;
 }
 
 section.statistics {
@@ -227,11 +239,13 @@ section.articles .articles-wrapper{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: stretch;
 }
 
 section.articles .articles-wrapper .articles-item{
     width: 30%;
+    padding: 15px;
+    margin-bottom: 20px;
 }
 
 section.articles .articles-wrapper .articles-item h3{
@@ -281,4 +295,16 @@ section.about p.signature{
     font-size: 18pt;
     color:white;
 
+}
+
+section.about .btn{
+    background-color: white;
+    color: mediumseagreen;
+    font-size: 12pt;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 20px;
+    display: inline-block;
 }
