@@ -278,8 +278,7 @@ section.about {
 section.about p{
     font-size: 21pt;
     color:white;
-    font-weight: 300;
-
+    font-weight: lighter;
 }
 
 section.about p.description::after{
@@ -294,7 +293,8 @@ section.about p.description::after{
 section.about p.signature{
     font-size: 18pt;
     color:white;
-
+    font-weight: lighter;
+    margin-bottom: 30px;
 }
 
 section.about .btn{
@@ -305,6 +305,71 @@ section.about .btn{
     text-decoration: none;
     border: none;
     padding: 10px 15px;
-    margin-top: 20px;
+    margin: 20px 0;
     display: inline-block;
+    transition: all .4s ease;
+}
+
+section.about .btn:hover {
+    background-color: seagreen;
+    color: white;
+}
+
+
+section.contact .map-item{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+section.contact .map-item .jpg{
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    display: block;
+}
+
+section.contact .background-item{
+    width: 100%;
+    height: 400px;
+    border: none;
+    background-color: rgb(168, 164, 164);
+}
+
+section.contact h1{
+    font-size: 27pt;
+    font-weight: 900;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    margin: -20px;
+}
+
+section.contact h2{
+    font-size: 23pt;
+    margin-bottom: 20px;
+    color: rgb(168, 164, 164);
+    font-weight: 100;
+    text-align: center;
+    text-transform: lowercase;
+
+}
+
+section.contact h2::after{
+    content: "";
+    display: block;
+    background-color: rgb(168, 164, 164);
+    height: 2px;
+    width: 200px;
+    margin: 20px auto 40px;
+}
+
+
+section.contact .form .box-form{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    display: block;
+    bottom: 0;
 }
