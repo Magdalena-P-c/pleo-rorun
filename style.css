@@ -118,7 +118,7 @@ section.paragraph h1 {
 section.paragraph h2{
     font-size: 30pt;
     color: rgb(168, 164, 164);
-    font-weight: 100;
+    font-weight: lighter;
     text-transform: lowercase;
 }
 
@@ -139,10 +139,16 @@ section.paragraph p{
 }
 
 
+section.icon{
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
 section.icon .icon-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 section.icon .icon-wrapper .icon-item {
@@ -151,10 +157,13 @@ section.icon .icon-wrapper .icon-item {
     background-color: #fff;
     text-align: center;
     padding: 15px;
+    margin-bottom: 20px;
 }
 
 section.icon .icon-wrapper .icon-item h4{
     font-size: 18pt;
+    color: grey;
+    margin: 25px 0;
 }
 
 section.icon .icon-wrapper .icon-item h4 a{
@@ -164,6 +173,9 @@ section.icon .icon-wrapper .icon-item h4 a{
 
 section.icon .icon-wrapper .icon-item p{
     font-size: 13pt;
+    color: grey;
+    padding: 15px;
+    margin-bottom: 40px;
 }
 
 section.statistics {
@@ -266,11 +278,13 @@ section.articles .articles-wrapper{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: stretch;
 }
 
 section.articles .articles-wrapper .articles-item{
     width: 30%;
+    padding: 15px;
+    margin-bottom: 20px;
 }
 
 section.articles .articles-wrapper .articles-item h3{
@@ -303,8 +317,7 @@ section.about {
 section.about p{
     font-size: 21pt;
     color:white;
-    font-weight: 300;
-
+    font-weight: lighter;
 }
 
 section.about p.description::after{
@@ -319,5 +332,83 @@ section.about p.description::after{
 section.about p.signature{
     font-size: 18pt;
     color:white;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
 
+section.about .btn{
+    background-color: white;
+    color: mediumseagreen;
+    font-size: 12pt;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    padding: 10px 15px;
+    margin: 20px 0;
+    display: inline-block;
+    transition: all .4s ease;
+}
+
+section.about .btn:hover {
+    background-color: seagreen;
+    color: white;
+}
+
+
+section.contact .map-item{
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+section.contact .map-item .jpg{
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    display: block;
+}
+
+section.contact .background-item{
+    width: 100%;
+    height: 400px;
+    border: none;
+    background-color: rgb(168, 164, 164);
+}
+
+section.contact h1{
+    font-size: 27pt;
+    font-weight: 900;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+    margin: -20px;
+}
+
+section.contact h2{
+    font-size: 23pt;
+    margin-bottom: 20px;
+    color: rgb(168, 164, 164);
+    font-weight: 100;
+    text-align: center;
+    text-transform: lowercase;
+
+}
+
+section.contact h2::after{
+    content: "";
+    display: block;
+    background-color: rgb(168, 164, 164);
+    height: 2px;
+    width: 200px;
+    margin: 20px auto 40px;
+}
+
+
+section.contact .form .box-form{
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    display: block;
+    bottom: 0;
 }
