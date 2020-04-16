@@ -470,7 +470,6 @@ section.gallery-news .gallery-wrapper .gallery-ittem:hover{
     width: 33%;
     height: 50%;
     text-align: center;
-    margin-bottom: 5px;
 }
     
 
@@ -537,5 +536,29 @@ section.footer .footer-wrapper{
 
 section.footer .footer-wrapper p{
     color: darkgrey;
+}
+
+
+section.description p{
+    font-size: 12pt;
+    color: rgb(168, 164, 164);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+section.gallery-small .gallery-small-wrapper{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px 100px;
+}
+
+section.gallery-small .gallery-small-wrapper .gallery-small-item{
+    width: 33%;
+}
+
+section.picture{
+    text-align: center;
 }
 
