@@ -394,64 +394,6 @@ section.contact h2::after{
     margin: 20px auto 40px;
 }
 
-
-section.contact .form .box-form{
-    background-color: white;
-    width: 200px;
-    height: 200px;
-    position: absolute;
-    display: block;
-    bottom: 0;
-}
-
-
-
-section.banner-news {
-    background-image: url('rorun_layout_pliki/home/background_image.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    padding: 70px 70px;
-    height: 526px;
-    text-align: left;
-}
-
-section.banner-news h1 {
-    margin: 0;
-    font-size: 60pt;
-    font-weight: bold;
-}
-
-section.banner-news h4 {
-    margin-top: 10px;
-    font-size: 50pt;
-    font-weight: lighter;
-}
-
-section.banner-news h5 {
-    margin-top: 15px;
-    font-size: 20px;
-    font-weight: lighter;
-    margin-bottom: 15px;
-}
-
-section.banner-news h5:after {
-    content: '';
-    background-color: white;
-    height: 3px;
-    width: 30%;
-    display: block;
-    margin-top: 30px;
-}
-
-section.banner-news a {
-    text-decoration: none;
-    color: white;
-    font-size: 15px;
-    letter-spacing: 1px;
-}
-
 section.gallery-news .gallery-wrapper{
     display: flex;
     flex-wrap: wrap;
@@ -523,7 +465,7 @@ section.button .btn:hover {
 
 section.footer{
     background-color: lightgray;
-    margin-top: 30px;
+    margin-top: 5px;
     
 }
 
