@@ -52,8 +52,7 @@ header nav li a {
     padding: 5px 15px;
 }
 
-section.banner {
-    background-image: url('rorun_layout_pliki/home/background_image.jpg');
+.banner {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -61,6 +60,10 @@ section.banner {
     padding: 70px 70px;
     height: 526px;
     text-align: left;
+}
+
+section.banner_index {
+    background-image: url('rorun_layout_pliki/home/background_image.jpg');
 }
 
 section.banner h1 {
@@ -733,3 +736,95 @@ section.picture{
     text-align: center;
 }
 
+/*Page about_us*/
+
+section.banner_about_us {
+    background-image: url('rorun_layout_pliki/o nas/background_image.jpg');
+}
+
+section.app_description {
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+section.app_description h1 {
+    font-size: 45pt;
+    font-weight: 900;
+    margin-bottom: -10px;
+}
+
+section.app_description h2{
+    font-size: 30pt;
+    color: rgb(168, 164, 164);
+    font-weight: lighter;
+    text-transform: lowercase;
+}
+
+section.app_description h2::after{
+    content: "";
+    display: block;
+    background-color: rgb(231, 226, 226);
+    height: 2px;
+    width: 200px;
+    margin: 20px auto 40px;
+}
+
+section.app_description p{
+    font-size: 13pt;
+    color: rgb(168, 164, 164);
+    margin-bottom: 20px;
+}
+
+section.app_description .app_stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.app_description .app_stats h3 {
+    color: mediumseagreen;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+section.app_description .app_stats h3, p {
+    display: inline-block;
+    margin: 5px;
+}
+
+section.app_description .app_stats .stat {
+    width: 300px;
+    margin: 10px;
+}
+
+.app_information {
+    margin: 40px 0;
+    font-size: 13pt;
+    font-weight: 400;
+    text-align: left;
+    line-height: 30px;
+    color: gray;
+}
+
+section.app_description .app_pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+section.app_description .picture {
+    width: 300px;
+}
+
+.app_pictures p {
+    font-size: 15pt;
+}
+
+.app_pictures p::after {
+    content: "";
+    display: block;
+    background-color: rgb(168, 164, 164);
+    height: 1px;
+    width: 50%;
+    margin: 10px auto;
+}
