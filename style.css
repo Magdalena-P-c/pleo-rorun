@@ -379,29 +379,81 @@ section.news h2::after{
 
 section.news .currency_news {
     background-color: lightgrey;
-    padding: 50px 100px;
+    padding: 70px 100px 100px 100px;
     display: flex;
-    justify-content: space-between;
-    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
     position: relative;
+}
+
+section.news .currency_news:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid lightgrey;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: -30px;
+}
+
+section.news .arrow_left,
+             .arrow_right {
+    position: absolute;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.arrow_right {
+    transform: rotate(90deg);
+    right: 56px;
+    top: 200px;
+}
+
+.arrow_left {
+    transform: rotate(270deg);
+    left: 70px;
+    top: 200px;
 }
 
 section.news .new {
     display: inline-block;
-    flex-wrap: wrap;
     width: 299px;
     background-color: white;
-    margin: 15px;
+    margin: 5px;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
 }
 
-section .news .button {
-    display: flex;
+section.news img {
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+
+section.news .new::after {
+    content: '';
+    background-color: mediumseagreen;
+    display: block;
     position: absolute;
-    bottom: 50px;
+    height: 5px;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+section.news .container {
+    position: relative;
 }
 
 section.news a {
-
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: 507px;
 }
 
 /*Section map*/
