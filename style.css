@@ -913,3 +913,8 @@ section.people .gallery_people:before {
     top: -30px;
 }
 
+/*Page contact*/
+
+section.banner_contact {
+    background-image: url('rorun_layout_pliki/kontakt/background_image.jpg');
+}
