@@ -66,23 +66,33 @@
 
     <form class="entry_form">
         <div class="container">
-            <div class="form_question required">
-                <label for="fname">Your name</label>
-                <input id="fname" name="fname" type="text" required>
+            <div class="first_part_of_form">
+                <div class="form_question required">
+                    <label for="fname">Your name</label>
+                    <input id="fname" name="fname" type="text" required>
+                </div>
+                <div class="form_question required">
+                    <label for="femail">Your email</label>
+                    <input id="femail" type="email" required>
+                </div>
+                <div class="form_question">
+                    <label for="fsubject">Subject</label>
+                    <input id="fsubject">
+                </div>
+                <div class="form_question required">
+                    <label for="fmessage">Message</label>
+                    <input id="fmessage" required>
+                </div>
+                <button class="btn">Wyślij</button>
             </div>
-            <div class="form_question required">
-                <label for="femail">Your email</label>
-                <input id="femail" type="email" required>
+            <div class="second_part_of_form">
+                <h3>Kontakt</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Ut enim est, mollis eu arcu vel, rhoncus efficitur enim.</p>
+                <h4>B.Limanowskiego 36/30<br>Kraków</h4>
+                <h4>03 123 45 67<br>0412 345 678</h4>
+                <h4>info@rorun.com<br>www.rorun.com</h4>
             </div>
-            <div class="form_question">
-                <label for="fsubject">Subject</label>
-                <input id="fsubject">
-            </div>
-            <div class="form_question required">
-                <label for="fmessage">Message</label>
-                <input id="fmessage" required>
-            </div>
-            <button class="btn">Wyślij</button>
         </div>
     </form>
 
