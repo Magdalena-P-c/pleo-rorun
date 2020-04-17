@@ -787,13 +787,18 @@ section.description p{
     color: rgb(168, 164, 164);
     margin-bottom: 20px;
     padding: 5px 28px;
-    margin-right: 20px;
 }
 
 
 section.picture{
     text-align: center;
 }
+
+section.picture .picture-item{
+    width: 100%;
+    display: block;
+}
+
 
 /*Page about_us*/
 
