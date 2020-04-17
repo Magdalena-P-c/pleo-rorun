@@ -346,6 +346,7 @@ section .btn{
     margin: 20px 0;
     transition: all .4s ease;
     text-transform: lowercase;
+    display: inline-block;
 }
 
 section .btn:hover {
@@ -697,8 +698,10 @@ section.button .btn:hover {
 
 section.footer{
     background-color: lightgray;
-    margin-top: 30px;
-    
+}
+
+section.footer .container {
+    margin: 0 auto;
 }
 
 section.footer .footer-wrapper{
@@ -798,7 +801,7 @@ section.app_description .app_stats .stat {
 }
 
 .app_information {
-    margin: 40px 0;
+    margin: 100px 0;
     font-size: 13pt;
     font-weight: 400;
     text-align: left;
@@ -828,3 +831,85 @@ section.app_description .picture {
     width: 50%;
     margin: 10px auto;
 }
+
+section.heading h2{
+    font-size: 23pt;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 60px;
+}
+
+section.heading h3{
+    font-size: 20pt;
+    margin-bottom: 20px;
+    color: rgb(168, 164, 164);
+    font-weight: 100;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+section.heading h3::after{
+    content: "";
+    display: block;
+    background-color: rgb(168, 164, 164);
+    height: 1px;
+    width: 10%;
+    margin: 20px auto 40px;
+}
+
+section.people {
+    background-color: lightgrey;
+}
+
+.gallery_people {
+    padding: 70px 100px 100px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+section.people .person {
+    display: inline-block;
+    width: 299px;
+    background-color: white;
+    margin: 5px;
+    padding: 20px;
+    position: relative;
+    cursor: pointer;
+}
+
+section.people img {
+    margin-top: -20px;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+
+section.people .person::after {
+    content: '';
+    background-color: mediumseagreen;
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 100%;
+    bottom: 0;
+    right: 0;
+}
+
+section.people .container {
+    position: relative;
+}
+
+section.people .gallery_people:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid lightgrey;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: -30px;
+}
+
