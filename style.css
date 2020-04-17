@@ -103,6 +103,22 @@ section.banner a {
     letter-spacing: 1px;
 }
 
+@media screen and (max-width: 500px) {
+    .banner {
+        padding: 10px;
+        height: 310px;
+    }
+    section.banner h1 {
+        font-size: 40pt;
+    }
+    section.banner h4 {
+        font-size: 24pt;
+    }
+    section.banner h5 {
+        font-size: 16px;
+    }
+}
+
 
 /*Section paragraph*/
 
@@ -157,8 +173,7 @@ section.icon .icon-wrapper {
 }
 
 section.icon .icon-wrapper .icon-item {
-    width: 25%;
-    height: 200px;
+    width: 358px;
     background-color: #fff;
     text-align: center;
     padding: 15px;
@@ -180,7 +195,7 @@ section.icon .icon-wrapper .icon-item p{
     font-size: 13pt;
     color: grey;
     padding: 15px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 /*Section statistics*/
@@ -188,7 +203,7 @@ section.icon .icon-wrapper .icon-item p{
 section.statistics {
     background-color: lightgray;
     display: flex;
-    margin-top: 200px;
+    margin-top: 50px;
     padding: 30px 0;
 }
 
@@ -298,6 +313,18 @@ section.articles .articles-wrapper .articles-item{
     margin-bottom: 20px;
 }
 
+    @media screen and (max-width: 900px) {
+        section.articles .articles-wrapper .articles-item{
+            width: 50%;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        section.articles .articles-wrapper .articles-item{
+            width: 100%;
+        }
+    }
+
 section.articles .articles-wrapper .articles-item h3{
     font-size: 18pt;
     color: rgb(168, 164, 164);
@@ -331,6 +358,24 @@ section.about p{
     font-size: 21pt;
     color:white;
     font-weight: 100;
+}
+
+@media screen and (max-width: 900px) {
+    section.about {
+        padding: 30px;
+    }
+    section.about p {
+        font-size: 18pt;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    section.about {
+        padding: 10px;
+    }
+    section.about p {
+        font-size: 15pt;
+    }
 }
 
 section.about p.description::after{
@@ -541,7 +586,13 @@ form.entry_form {
     padding: 20px;
 }
 
-
+@media screen and (max-width: 900px) {
+    form.entry_form {
+        width: 100%;
+        bottom: 100px;
+        padding: 20px;
+    }
+}
 
 input {
     width: 100%;
@@ -589,6 +640,16 @@ form button {
     background-color: seagreen;
     transition: all .4s ease;
     margin-bottom: 30px;
+}
+
+@media screen and (max-width: 500px) {
+    form button {
+        width: 100%;
+        display: inline-block;
+        line-height: 38px;
+        padding: 2px 100px;
+        margin-bottom: 30px;
+    }
 }
 
 /*Section footer*/
