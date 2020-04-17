@@ -148,7 +148,6 @@ section.paragraph h1 {
     font-size: 45pt;
     font-weight: 900;
     margin-bottom: -10px;
-    
 }
 
 section.paragraph h2{
@@ -167,6 +166,15 @@ section.paragraph h2::after{
     margin: 20px auto 40px;
 }
 
+@media screen and (max-width: 500px) {
+    section.paragraph h1 {
+        font-size: 30pt;
+        margin-bottom: 10px;
+    }
+    section.paragraph h2{
+        font-size: 20pt;
+    }
+}
 
 section.paragraph p{
     font-size: 13pt;
@@ -786,7 +794,14 @@ section.description p{
     font-size: 12pt;
     color: rgb(168, 164, 164);
     margin-bottom: 20px;
-    padding: 5px 28px;
+    padding: 5px;
+    line-height: 25px;
+}
+
+@media screen and (max-width: 500px) {
+    section.description p{
+        text-align: justify;
+    }
 }
 
 
@@ -797,6 +812,10 @@ section.picture{
 section.picture .picture-item{
     width: 100%;
     display: block;
+}
+
+.picture img {
+    width: 100%;
 }
 
 
