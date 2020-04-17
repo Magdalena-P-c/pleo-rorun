@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
-    <title>O nas</title>
+    <title>Kontakt</title>
 </head>
 <body>
 
@@ -20,13 +20,13 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="about_us.html"><b>O nas</b></a>
+                        <a href="about_us.html">O nas</a>
                     </li>
                     <li>
                         <a href="news.html">Aktualności</a>
                     </li>
                     <li>
-                        <a href="contact.html">Kontakt</a>
+                        <a href="contact.html"><b>Kontakt</b></a>
                     </li>
                 </ul>
             </nav>
@@ -66,32 +66,34 @@
 
     <form class="entry_form">
         <div class="container">
-            <div class="first_part_of_form">
-                <div class="form_question required">
-                    <label for="fname">Your name</label>
-                    <input id="fname" name="fname" type="text" required>
+            <div class="form_columns">
+                <div class="first_part_of_form">
+                    <div class="form_question required">
+                        <label for="fname">Your name</label>
+                        <input id="fname" name="fname" type="text" required>
+                    </div>
+                    <div class="form_question required">
+                        <label for="femail">Your email</label>
+                        <input id="femail" type="email" required>
+                    </div>
+                    <div class="form_question">
+                        <label for="fsubject">Subject</label>
+                        <input id="fsubject">
+                    </div>
+                    <div class="form_question required">
+                        <label for="fmessage">Message</label>
+                        <input id="fmessage" required>
+                    </div>
+                    <button class="btn">Wyślij</button>
                 </div>
-                <div class="form_question required">
-                    <label for="femail">Your email</label>
-                    <input id="femail" type="email" required>
+                <div class="second_part_of_form">
+                    <h3>Kontakt</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Ut enim est, mollis eu arcu vel, rhoncus efficitur enim.</p>
+                    <h4>B.Limanowskiego 36/30<br>Kraków</h4>
+                    <h4>03 123 45 67<br>0412 345 678</h4>
+                    <h4>info@rorun.com<br>www.rorun.com</h4>
                 </div>
-                <div class="form_question">
-                    <label for="fsubject">Subject</label>
-                    <input id="fsubject">
-                </div>
-                <div class="form_question required">
-                    <label for="fmessage">Message</label>
-                    <input id="fmessage" required>
-                </div>
-                <button class="btn">Wyślij</button>
-            </div>
-            <div class="second_part_of_form">
-                <h3>Kontakt</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                <p>Ut enim est, mollis eu arcu vel, rhoncus efficitur enim.</p>
-                <h4>B.Limanowskiego 36/30<br>Kraków</h4>
-                <h4>03 123 45 67<br>0412 345 678</h4>
-                <h4>info@rorun.com<br>www.rorun.com</h4>
             </div>
         </div>
     </form>

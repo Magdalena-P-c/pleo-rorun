@@ -532,6 +532,8 @@ form.entry_form {
     padding: 20px;
 }
 
+
+
 input {
     width: 100%;
     padding: 10px;
@@ -582,7 +584,7 @@ form button {
 
 
 section.banner-news {
-    background-image: url('rorun_layout_pliki/home/background_image.jpg');
+    background-image: url('rorun_layout_pliki/aktualnosci/background_image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -919,7 +921,7 @@ section.banner_contact {
     background-image: url('rorun_layout_pliki/kontakt/background_image.jpg');
 }
 
-.entry_form .container {
+.entry_form .form_columns {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
